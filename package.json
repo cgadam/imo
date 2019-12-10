@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-spectral",
+  "name": "imo-gatsby",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Spectral by HTML5 UP",
+  "description": "Imo - Deco Funcional",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
+    "url": "git+https://github.com/cgadam/imo.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Christian Adam",
+    "email": "christian.g.adam@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.4.3",
@@ -48,7 +48,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-spectral/issues"
+    "url": "https://github.com/cgadam/imo/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-spectral#readme"
+  "homepage": "https://github.com/cgadam/imo#readme"
 }
