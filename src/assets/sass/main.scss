@@ -171,7 +171,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
-		font-weight: _font(weight-extrabold);
+		font-weight: normal;
 		letter-spacing: _size(letter-spacing-alt);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
@@ -554,6 +554,8 @@
 		@include icon;
 		border-bottom: none;
 		position: relative;
+		height: 48px;
+		width: 48px;
 
 		> .label {
 			display: none;
@@ -1583,7 +1585,6 @@
 		@include vendor('justify-content', 'center');
 		cursor: default;
 		height: 100vh;
-		min-height: 35em;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -1635,7 +1636,7 @@
 			@include vendor('transform', 'translateY(0)');
 			border: none;
 			bottom: 0;
-			color: inherit;
+			color: black;
 			font-size: 0.8em;
 			height: 8.5em;
 			left: 50%;
@@ -1683,18 +1684,12 @@
 
 		@include breakpoint('<=small') {
 			@include padding(7em, 3em);
-			height: auto;
-			min-height: 0;
 
 			h2 {
 				font-size: 1.25em;
 			}
 
 			br {
-				display: none;
-			}
-
-			.more {
 				display: none;
 			}
 		}
@@ -1838,12 +1833,34 @@
 		.icons {
 			font-size: 1.25em;
 
+			img {
+				width: 3em;
+			}
+
 			a {
 				color: _palette(fg-light);
 
 				&:hover {
 					color: _palette(fg);
 				}
+			}
+		}
+
+		.imo-logo {
+			background-image: url('../img/logo.png');
+			width: 17em;
+			height: 6em;
+			display: inline-block;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.contact-text {
+			font-size: 2em;
+			margin-bottom: 1em;
+			@include breakpoint('<=small') {
+				font-size: 1.5em;
 			}
 		}
 
@@ -1928,6 +1945,63 @@
 
 			#footer {
 				background-color: darken(_palette(bg), 8);
+			}
+		}
+	}
+
+	.gifImage {
+		width: 100%;
+	}
+
+	.blackBackground {
+		background-color: black;
+	}
+
+	.benefits {
+		padding-left: 0;
+		display: inline-flex;
+		align-items: center;
+		justify-items: center;
+		li {
+			&:first-child {
+				padding-left: 0;
+			}
+			&:last-child {
+				padding-right: 0;
+			}
+			list-style-type: none;
+			display: inline;
+			padding: 0 1em;
+		}
+		div {
+			display: inline-block;
+			width: 5em;
+			height: 5em;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			transition: all 0.5s ease-in-out;
+			&:hover {
+				width: 10em;
+				height: 10em;
+			}
+		}
+		&__molestia {
+			background-image: url('../images/beneficios/molestias.png');
+			&:hover {
+				background-image: url('../images/beneficios/molestias-hover.png');
+			}
+		}
+		&__productividad {
+			background-image: url('../images/beneficios/productividad.png');
+			&:hover {
+				background-image: url('../images/beneficios/productividad-hover.png');
+			}
+		}
+		&__energia {
+			background-image: url('../images/beneficios/energia.png');
+			&:hover {
+				background-image: url('../images/beneficios/energia-hover.png');
 			}
 		}
 	}
