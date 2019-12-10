@@ -9,7 +9,7 @@ const getSpotLightSection = ({title, description, imgSrc}) => {
       </div>
       <div className="content">
         <h2>
-          {title}
+          <b>{title}</b>
         </h2>
         <p>
           {description}
@@ -43,7 +43,18 @@ const Products = () => {
 
   return (
     <section id="two" className="wrapper alt style2">
-    { products }
+      <div style={{
+        textAlign: 'center',
+        backgroundColor: 'black',
+        margin: 0,
+        height: '4em',
+      }}>
+        <h2 style={{
+          margin: 0,
+          fontSize: '30px',
+        }}><b>Productos</b></h2>
+      </div>
+      { products }
     </section>
   );
 };

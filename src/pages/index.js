@@ -7,6 +7,7 @@ import {
   Benefits,
   PromoGIF,
   Products,
+  Carousel,
 } from '../components/sections';
 
 const IndexPage = () => (
@@ -15,7 +16,9 @@ const IndexPage = () => (
     <Benefits />
     <PromoGIF />
     <Products />
-    
+    <Carousel />
+{
+  /*
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
@@ -97,7 +100,10 @@ const IndexPage = () => (
         </ul>
       </div>
     </section>
-  </Layout>
+ 
+  */
+}
+ </Layout>
 );
 
 export default IndexPage;

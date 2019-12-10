@@ -46,4 +46,8 @@ module.exports = {
       imgSrc: () => import('./src/assets/images/gif/imo-gif-4.gif'),
     },
   ],
+  carousel: [
+    () => import('./src/assets/images/carousel/foto2.jpg'),
+    () => import('./src/assets/images/carousel/foto3.jpg')
+  ]
 };
