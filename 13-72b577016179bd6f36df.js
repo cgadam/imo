@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{yQZi:function(o,p,c){o.exports=c.p+"static/foto3-ce534ed35703b518ec58dcb148615745.jpg"}}]);
-//# sourceMappingURL=13-72b577016179bd6f36df.js.map

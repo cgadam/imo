@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/assets/images/carousel/foto2.jpg"],"names":["module","exports"],"mappings":"+EAAAA,EAAOC,QAAU,IAA0B","file":"11-aa56170cdc0254bfa362.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/foto2-3a550d81d10c5a33e1098b196e83b606.jpg\";"],"sourceRoot":""}

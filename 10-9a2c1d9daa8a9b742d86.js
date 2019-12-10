@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{CpwY:function(e,t,n){"use strict";n.r(t);var a=n("o0o1"),c=n.n(a),s=(n("ls82"),n("q1tI")),r=n.n(s);t.default=function(e){var t=e.getSrc,n=Object(s.useState)(),a=n[0],u=n[1];return Object(s.useEffect)((function(){var e;c.a.async((function(n){for(;;)switch(n.prev=n.next){case 0:return n.next=2,c.a.awrap(t());case 2:e=n.sent,u(e.default);case 4:case"end":return n.stop()}}))}),[t]),a?r.a.createElement("img",{className:"gifImage",alt:"GIF",src:a}):null}}}]);
+//# sourceMappingURL=10-9a2c1d9daa8a9b742d86.js.map

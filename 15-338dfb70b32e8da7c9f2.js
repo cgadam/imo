@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{"Wp/F":function(p,i,o){p.exports=o.p+"static/imo-gif-2-8fb1630dd0a2657cd1934eebfacea9f6.gif"}}]);
-//# sourceMappingURL=15-338dfb70b32e8da7c9f2.js.map
