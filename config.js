@@ -49,5 +49,53 @@ module.exports = {
   carousel: [
     () => import('./src/assets/images/carousel/foto2.jpg'),
     () => import('./src/assets/images/carousel/foto3.jpg')
+  ],
+  features: [
+    {
+      title: 'REGULACION EN ALTURA',
+      description: `
+      Mínimo: 68 cm / Máximo: 118 cm
+      Elevación: eléctrica o manual
+      `,
+      getImg: () => import('./src/assets/images/features/altura.png')
+    },
+    {
+      title: 'TOMA CORRIENTE',
+      description: `
+      4 toma corriente para:
+      Smart / Tablet / Notebook
+      `,
+      getImg: () => import('./src/assets/images/features/corriente.png')
+    },
+    {
+      title: 'MEDIDAS',
+      description: `
+      Ancho: 130 cm (opcional hasta 180 cm)
+      Profundidad: 70 cm (opcional hasta 90 cm)
+      `,
+      getImg: () => import('./src/assets/images/features/medidas.png')
+    },
+    {
+      title: 'BANDEJA PARA CABLES',
+      description: `
+      Bandeja organizadora para ordenar los cables de tus dispositivos
+      `,
+      getImg: () => import('./src/assets/images/features/cables.png')
+    },
+    {
+      title: 'CAJONES',
+      description: `
+      2 cajones frontales para mantener el escritorio ordenado
+      `,
+      getImg: () => import('./src/assets/images/features/cajones.png')
+    },
+    {
+      title: 'COLORES',
+      description: `
+      Escritorio: Blanco, Gris, Negro.
+      Tapa y Accesorios: Blanco (consultar opciones)
+      `,
+      getImg: () => import('./src/assets/images/features/colores.png')
+    }
   ]
 };
