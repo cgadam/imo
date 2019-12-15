@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{l1b1:function(c,n,p){c.exports=p.p+"static/corriente-77534007eba6b5c1dec14a439f3c1ac7.png"}}]);
+//# sourceMappingURL=20-627426a713dbe84e6c1e.js.map

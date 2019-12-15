@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{"+oW9":function(a,p,n){a.exports=n.p+"static/medidas-01d78ad77b7a5a9a4656364e1678eb6a.png"}}]);
-//# sourceMappingURL=15-51580aa96c96674bcc5f.js.map

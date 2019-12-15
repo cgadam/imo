@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{J8dw:function(d,p,o){d.exports=o.p+"static/productividad-hover-e0103f27bd56de86b8e41b3bd4764a16.png"}}]);
+//# sourceMappingURL=12-6070fc708b202436b11d.js.map

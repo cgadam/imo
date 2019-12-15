@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/assets/images/beneficios/productividad.png"],"names":["module","exports"],"mappings":"+EAAAA,EAAOC,QAAU,IAA0B","file":"13-1e55b1c4b4b5f9ee66a1.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/productividad-6c3c80abd9b98c0cc838900f135c17b9.png\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/assets/images/gif/imo-gif-1.gif"],"names":["module","exports"],"mappings":"+EAAAA,EAAOC,QAAU,IAA0B","file":"16-cef343935ef98c47e3ad.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/imo-gif-1-b8930e31414a8b620a1b7d26633e48e1.gif\";"],"sourceRoot":""}

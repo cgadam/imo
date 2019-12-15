@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/assets/images/features/colores.png"],"names":["module","exports"],"mappings":"+EAAAA,EAAOC,QAAU,IAA0B","file":"13-8b5546f0f8110cc5e05c.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/colores-b89f1e0594a715bd10f38a91bee81d2c.png\";"],"sourceRoot":""}
