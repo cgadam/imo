@@ -99,5 +99,22 @@ module.exports = {
       `,
       getImg: () => import('./src/assets/images/features/colores.png')
     }
+  ],
+  beneficios: [
+    {
+      name: 'energia',
+      getImg: () => import ('./src/assets/images/beneficios/energia.png'),
+      getActiveImg: () => import('./src/assets/images/beneficios/energia-hover.png'),
+    },
+    {
+      name: 'molestias',
+      getImg: () => import ('./src/assets/images/beneficios/molestias.png'),
+      getActiveImg: () => import('./src/assets/images/beneficios/molestias-hover.png'),
+    },
+    {
+      name: 'productividad',
+      getImg: () => import ('./src/assets/images/beneficios/productividad.png'),
+      getActiveImg: () => import('./src/assets/images/beneficios/productividad-hover.png'),
+    }
   ]
 };

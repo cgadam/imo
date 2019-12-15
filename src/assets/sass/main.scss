@@ -1652,7 +1652,7 @@
 			z-index: 1;
 
 			@include breakpoint('<=small') {
-				bottom: 7vh;
+				bottom: 10vh;
 			}
 
 			&:after {
@@ -1982,37 +1982,6 @@
 			display: inline;
 			padding: 0 1em;
 		}
-		div {
-			display: inline-block;
-			width: 5em;
-			height: 5em;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-size: cover;
-			transition: all 0.5s ease-in-out;
-			&:hover {
-				width: 10em;
-				height: 10em;
-			}
-		}
-		&__molestia {
-			background-image: url('../images/beneficios/molestias.png');
-			&:hover {
-				background-image: url('../images/beneficios/molestias-hover.png');
-			}
-		}
-		&__productividad {
-			background-image: url('../images/beneficios/productividad.png');
-			&:hover {
-				background-image: url('../images/beneficios/productividad-hover.png');
-			}
-		}
-		&__energia {
-			background-image: url('../images/beneficios/energia.png');
-			&:hover {
-				background-image: url('../images/beneficios/energia-hover.png');
-			}
-		}
 	}
 	
 	.slick-dots {
@@ -2075,5 +2044,15 @@
 		left: 10%;
 		b {
 			color: black;
+		}
+	}
+
+	.beneficio {
+		display: inline-block;
+		width: 5em;
+		height: 5em;
+		&--active {
+			width: 8em;
+			height: 8em;
 		}
 	}
