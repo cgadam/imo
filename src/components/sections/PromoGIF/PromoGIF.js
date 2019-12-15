@@ -4,8 +4,8 @@ import GIF from '../../utils/GIF';
 
 const PromoGIF = () => {
   return (
-    <section>
-      <LazyInView className="blackBackground">
+    <section className="imoMov">
+      <LazyInView>
         <GIF
           getSrc={() => import('../../../assets/images/gif/imo-gif-1.gif')}
         />
