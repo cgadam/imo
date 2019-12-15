@@ -70,8 +70,10 @@ module.exports = {
     {
       title: 'MEDIDAS',
       description: `
-      Ancho: 130 cm (opcional hasta 180 cm)
-      Profundidad: 70 cm (opcional hasta 90 cm)
+      Ancho: 130 cm
+      (opcional hasta 180 cm)
+      Profundidad: 70 cm
+      (opcional hasta 90 cm)
       `,
       getImg: () => import('./src/assets/images/features/medidas.png')
     },
