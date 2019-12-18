@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'imo - deco funcional', // <title>
-  manifestName: 'Spectral',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestName: 'imo - deco funcional',
+  manifestShortName: 'imo', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',

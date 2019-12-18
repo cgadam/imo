@@ -45,8 +45,14 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Spectral' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'imo - deco funcional' },
+                {
+                  name: 'keywords',
+                  content:
+                    `imo, muebles, deco funcional, decoracion, funcional,
+                     movimiento, escritorio, regulable, altura, manual, electrico,
+                     argentina, cordoba`,
+                },
               ]}
             >
               <html lang="en" />
